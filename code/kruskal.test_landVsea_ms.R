@@ -38,20 +38,20 @@ kruskal.test(Q10_animal_health ~ survey, data = data)
 kruskal.test(Q11_habitat_health ~ survey, data = data)
 
 ##******************Q19_scenario_effective ********************
-kruskal.test(Q19_scenario_effective ~ survey, data = data) #non-normal error data
+kruskal.test(Q19_scenario_effective ~ survey, data = data) 
 
 ##******************Q20_conservation intervention type ********************
-kruskal.test(Q20_supplament ~ survey, data = data) #non-normal error data
+kruskal.test(Q20_supplament ~ survey, data = data) 
 
 ##******************Q21_funding source ********************
 kruskal.test(Q21_total_funds ~ survey, data = data) 
 
 
 ##***********Q8 is there a need for active conservation efforts in each of the following environments? If so, what level of active conservation effort does each need?**** 
-data<-read_csv("IMPACT_variables.csv") #Q7 as response variable
-head(data)
+data2<-read_csv("IMPACT_variables.csv") 
+head(data2)
 
 #scored and normalized total conservation need
-kruskal.test(Q8Cons_need_score/5 ~ Q8Cons_need, data = data) 
+kruskal.test(Q8Cons_need_score/5 ~ Q8Cons_need, data = data2) 
 
 
