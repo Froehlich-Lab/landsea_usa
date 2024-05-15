@@ -1,0 +1,47 @@
+variable,variable_detail,model,MSE,IncNodePurity,prune
+age,age,a_need,7.8801988,2.0774957,0
+age,age,impact,9.043862,5.55308,0
+community,community,a_need,3.7089117,1.2396966,0
+community,community,impact,7.254513,3.761084,0
+education,education,a_need,1.0705293,1.5638149,0
+education,education,impact,6.65296,4.774699,0
+gender,gender,a_need,7.336581,0.7699287,0
+gender,gender,impact,5.116754,1.992045,0
+income,income,a_need,1.5875027,1.3913748,0
+income,income,impact,12.735667,4.717416,0
+no_kids,number of kids,a_need,3.1835044,1.5730949,0
+no_kids,number of kids,impact,10.245171,5.156018,0
+political2,political affliation,a_need,6.8321171,2.1233663,0
+political2,political affliation,impact,13.598116,5.839855,0
+Q10_animal_health,perceived health of wildlife,a_need,24.3158823,2.6181403,0
+Q10_animal_health,perceived health of wildlife,impact,23.60805,6.417089,0
+Q11_habitat_health,perceived health of habitat,a_need,27.9816735,3.2047287,1
+Q11_habitat_health,perceived health of habitat,impact,42.645132,11.792391,1
+Q13_concern_both,concern about health of wildlife & habitat,a_need,60.4671577,7.5020609,1
+Q13_concern_both,concern about health of wildlife & habitat,impact,31.285817,8.46529,0
+Q14_donated,donated to NGO or charity in last 2yrs,a_need,8.8425032,0.7695291,0
+Q14_donated,donated to NGO or charity in last 2yrs,impact,16.244158,3.520096,1
+Q14_voted,voted for envtal politician in last 2yrs,a_need,6.6548763,0.7483447,0
+Q14_voted,voted for envtal politician in last 2yrs,impact,36.707124,7.369843,1
+Q15_voting_effective,effectiveness of voting for envtal politician,a_need,36.3293531,3.9495751,1
+Q15_voting_effective,effectiveness of voting for envtal politician,impact,5.559517,5.311271,0
+Q16_participate,participated in conservation efforts,a_need,7.8792272,0.8286443,0
+Q16_participate,participated in conservation efforts,impact,4.966706,1.89771,0
+Q18_aware_org,aware of conservation organizations,a_need,2.7232458,0.5550341,0
+Q18_aware_org,aware of conservation organizations,impact,4.522108,1.762248,0
+Q21_fund_source_market,funding source: private market mechanisms,a_need,6.9470071,0.7940691,0
+Q21_fund_source_market,funding source: private market mechanisms,impact,14.307248,3.176156,0
+Q21_fund_source_partnerships,funding source: agency/private partnerships,a_need,11.6011632,1.2417379,0
+Q21_fund_source_partnerships,funding source: agency/private partnerships,impact,32.720626,7.514404,0
+Q21_fund_source_penalties,funding source: penalties on companies,a_need,4.8062952,0.9113807,0
+Q21_fund_source_penalties,funding source: penalties on companies,impact,42.906148,11.531574,1
+Q4_fish_hunt,hunting and/or fishing,a_need,8.117524,1.1804015,0
+Q4_fish_hunt,hunting and/or fishing,impact,9.757771,3.381043,0
+Q4_total,total number of recreational activities,a_need,6.513486,2.4575748,0
+Q4_total,total number of recreational activities,impact,26.352025,8.145528,1
+Q7_impact_me,impact to me and/or my community,a_need,90.096837,13.0571786,1
+Q8_total_need,total need for active conservation efforts,impact,96.706545,37.307181,1
+survey,survey,a_need,-0.4385359,0.7670456,0
+survey,survey,impact,3.087569,2.294603,0
+US_census_region,US census region,a_need,3.4784072,1.6978671,0
+US_census_region,US census region,impact,1.561332,4.819058,0
